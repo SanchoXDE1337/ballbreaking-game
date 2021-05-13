@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/beerBackground.jpg");
+}
+
+#field {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#needle {
+  position: absolute;
+  height: 128px;
+  width: 100px;
+  background: url("../img/fish.png") no-repeat center;
+  background-size: contain;
+  z-index: 1;
+}
+
+.ball {
+  position: absolute;
+  bottom: -50px;
+  border-radius: 50%;
+  background-color: #ffe16e;
+  border: 5px solid #ffeed1;
+  transition: transform 2s;
+}
+
+.poppedBall {
+  background-color: brown;
+  transform: scale(0);
+  transform-origin: top;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  position: absolute;
+  top: 35vh;
+  padding: 16px;
+  z-index: 2;
+}
