@@ -1,23 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./favicon.ico" />
+    <title>BallBreaker</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>BallBreaker</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-  <div class="wrapper">
-    <div id="needle"></div>
-    <div id="timer" style="position: absolute; left: 10px"></div>
-    <div id="field"></div>
-  </div>
-  <script src="js/main.js"></script>
-</body>
-
+  <body>
+    <div class="wrapper">
+      <div class="start-modal">
+        <h1>Лопни шарик</h1>
+        <h3>🍺Beer madness🍺</h3>
+        <p>Управление осуществляется стрелками Влево/Вправо</p>
+        <button id="startButton">Играть</button>
+      </div>
+      <div id="needle"></div>
+      <div id="timer"></div>
+      <div id="field"></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
 </html>

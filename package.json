@@ -1,16 +1,8 @@
 {
-  "name": " ",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
-  "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "ballbreaker",
+  "homepage": "https://sanchoxde1337.github.io/ballbreaking-game/",
+  "version": "1.0.0",
+  "author": "SanchoXD",
   "devDependencies": {
     "prettier": "^2.3.0"
   }
